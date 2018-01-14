@@ -30,7 +30,7 @@ void loop() {
   }
   else
   {
-    // write outputvalues
+    // write outputvalues, set back to zero
     analogWrite(LED1, 0);
     digitalWrite(LED2, LOW);
   }
