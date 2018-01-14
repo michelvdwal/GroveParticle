@@ -31,9 +31,7 @@ Download an app to your phone and follow the instructions to enable provisioning
 * [RedBear Duo](https://play.google.com/store/apps/details?id=com.redbear.redbearbleclient&hl=en) - Android app
 * [Photon](https://docs.particle.io/guide/getting-started/tinker/photon/) - Apps for Photon
 
-To provision your iOT board, you first need to put it in [Listening Mode](https://docs.particle.io/guide/getting-started/modes/photon/#listening-mode)
-
-You might have to upgrade your firmware first - [Instructions for RedBear Duo](https://github.com/redbear/Duo/blob/master/docs/firmware_deployment_guide.md)
+To provision your iOT board, you need to put it in [Listening Mode](https://docs.particle.io/guide/getting-started/modes/photon/#listening-mode). It will restart after it has found your WIFI network with the right credentials. You might have to upgrade your firmware first - [Instructions for RedBear Duo](https://github.com/redbear/Duo/blob/master/docs/firmware_deployment_guide.md)
 
 ### First Run
 
