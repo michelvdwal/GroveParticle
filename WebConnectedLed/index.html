@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Grove Web Enabled LED</title>
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+    <style>
+      body
+      {
+        font-family: Roboto;
+        font-size: 24px;
+        background: #efefef;
+        color: #222;
+        padding: 80px;
+      }
+      input[type=radio]
+      {
+        margin: 20px;
+        height: 20px;
+      }
+      input[type=submit]
+      {
+        font-size: 24px;
+        padding:10px 75px;
+        margin: 40px 20px;
+        background: #0AF;
+        color: #fff;
+        border: 0 none;
+        cursor:pointer;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        display: block;
+      }
+      h2, h3
+      {
+        color: #444;
+      }
+      *:focus {
+        outline:none;
+      }
+    </style>
+  </head>
+<body>
+  <h3>Grove Web Connected LED</h3>
+  <form id="myForm" action="https://api.particle.io/v1/devices/2d0028000551343530343432/led?access_token=dacb62f2eaf309552d460df6ec56c85fce0d2482" method="POST">
+    <input type="radio" name="arg" value="on">Zet de LED aan<br />
+    <input type="radio" name="arg" value="off">Zet de LED uit
+    <input type="submit" value="Okido">
+  </form>
+<!-- the result of the search will be rendered inside this div -->
+<div id="result"></div>
+
+<script>
+// Attach a submit handler to the form
+$( "#myForm" ).submit(function( event ) {
+
+  // Stop form from submitting normally
+  event.preventDefault();
+
+  // Get some values from elements on the page:
+  var $form = $( this ),
+    term = $form.find( "input[name='arg']:checked" ).val(),
+    url = $form.attr( "action" );
+
+  // Send the data using post
+  var posting = $.post( url, { s: term } );
+
+  // Put the results in a div
+  posting.done(function( data ) {
+    var content = $( data ).find( "#content" );
+    $( "#result" ).empty().append( content );
+  });
+});
+</script>
+
+</body>
+</html>
