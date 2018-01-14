@@ -1,8 +1,0 @@
-#binaries
-*.bin
-
-#macrelated
-*.DS_Store
-
-#gitrelates
-*.gitattributes
