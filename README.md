@@ -21,9 +21,7 @@ Because of firmware dependencies, these projects will not execute standalone on 
 
 ### Installing
 
-To start running these experiments you need to install the software mentioned above.
-
-Then provision your RedBear Duo or Photon. It needs to connect to your local WIFI network to connect to the particle cloud.
+To start running these experiments you need to install the software mentioned above. Then provision your RedBear Duo or Photon. It needs to connect to your local WIFI network to connect to the particle cloud.
 
 First connect your iOT board to your expansion shield. Then connect your expansion shield to USB power. Any of the USB ports on your computer will do.
 
@@ -39,7 +37,11 @@ You might have to upgrade your firmware first - [Instructions for RedBear Duo](h
 
 ### First Run
 
-To s
+To see if everything works, login to a account on [Particle.io](https://console.particle.io/devices) and see if your device is listed. If it's not you will have to claim your device in the Particle cloud first.
+
+If everything works go to the [Particle Cloud IDE](https://build.particle.io/build/new) and click on your device in the bottom right corner of your screen. You now see your device in the menu on the left hand side of your screen. Click the arrow to downdrill more details. Click on the 'SIGNAL' button. The on board led of your iOT board will cycle multiple colors to show it has received the signal.
+
+You're now ready to go. Move over to Atom and open a project folder. Don't forget to select your device in Atom before trying to flash your code.
 
 ## Author
 
