@@ -2,6 +2,8 @@
 
 Experiments for iOT with Particle and Grove System for OSX
 
+UPDATE: RedBear Duo and Particle Photon have been discontinued. Read more at https://docs.particle.io/photon/. All examples might work with Photon Duo or other Particle devices.
+
 ## Acknowledgement
 
 Although all samples will probably work on Windows or Linux, all projects have been developed and tested in MacOS X (10.13.2).
