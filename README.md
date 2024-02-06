@@ -12,8 +12,7 @@ Although all samples will probably work on Windows or Linux, all projects have b
 
 To work with these experiments you need
 
-* [Atom](https://atom.io/) - Code Editor
-* [Particle-Dev package for Atom](https://atom.io/packages/particle-dev) - Particle Extension for Atom
+* [Particle Workbench or an extension of it in your fav editor](https://www.particle.io/workbench/) - Particle Workbench
 * [RedBear Duo](https://redbear.cc/product/wifi-ble/redbear-duo.html) - iOT board with WIFI and BLE from RedBear or [Photon](https://store.particle.io/products/photon) - iOT board with WIFI from Particle
 * [Grove Base Shield](http://wiki.seeed.cc/Grove_Base_Shield_for_Photon/) - Expansion shield board to connect the iOT board to the Grove System
 
