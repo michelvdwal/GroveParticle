@@ -13,7 +13,7 @@ Although all samples will probably work on Windows or Linux, all projects have b
 To work with these experiments you need
 
 * [Particle Workbench or an extension of it in your fav editor](https://www.particle.io/workbench/) - Code editor
-* [RedBear Duo](https://redbear.cc/product/wifi-ble/redbear-duo.html) - iOT board with WIFI and BLE from RedBear or [Photon](https://store.particle.io/products/photon) - iOT board with WIFI from Particle
+* <s>[RedBear Duo](https://redbear.cc/product/wifi-ble/redbear-duo.html) - iOT board with WIFI and BLE from RedBear</s> or [Photon](https://store.particle.io/collections/all-products/products/photon-2) - iOT board with WIFI from Particle
 * [Grove Base Shield](http://wiki.seeed.cc/Grove_Base_Shield_for_Photon/) - Expansion shield board to connect the iOT board to the Grove System
 
 These experiments use several sensors, actuators, leds or other output Grove System modules found [here](https://www.seeedstudio.com/category/Grove-c-1003.html)
